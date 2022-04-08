@@ -24,7 +24,7 @@ subtitle                 : "Grow gradually" # site tagline that appears below si
 name                     : "Minsung's Data warehouse"
 description              : "저의 데이터웨어하우스입니다. 지금도 성장 중..."
 url                      : "https://msio900.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.jpg" # path of logo image to display in the masthead, e.g. 
