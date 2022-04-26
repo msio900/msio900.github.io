@@ -1,7 +1,7 @@
 ---
 layout      : single
 title       : "시간복잡도(time complexity)는 어떻게 계산하는가?"
-categories  : 준비 중인 글
+categories  : prepare-to-post
 tag         : [codingtest] 
 toc : true
 toc_label: "Contents"
