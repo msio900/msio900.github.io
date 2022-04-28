@@ -64,6 +64,29 @@ sidebar:
 
 >  `n`값에 따라서 최악의 경우 log<sup>n</sup>번의 연산을 해야 하는 경우 시간복잡도 O(log<sup>n</sup>)으로 나타냅니다.
 
+ 시간복잡도 O(log<sup>n</sup>)을 알아보기 위해 먼저 로그(log) 계산법을 알아봅시다.
+
+**log<sub>a</sub>b** (a : 밑, b : 진수)
+
+log의 계산은 밑(a)과 진수(b)에 숫자를 대입하여 결괏값을 얻는 방법입니다. log 식의 계산은 다음과 같습니다. 
+
+
+$$
+log_a 1=0,log_a a=1
+$$
+
+$$
+log_a M + log_a N = log_a MN
+$$
+
+$$
+log_a M - log_a N = log_a \frac{M}{N}
+$$
+
+$$
+log_a M^k = klog_a M
+$$
+
 
 
 ## 시간복잡도가 O(n<sup>2</sup>)인 경우
