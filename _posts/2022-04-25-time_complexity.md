@@ -66,27 +66,25 @@ sidebar:
 
  시간복잡도 O(log<sup>n</sup>)을 알아보기 위해 먼저 로그(log) 계산법을 알아봅시다.
 
-**log<sub>a</sub>b** (a : 밑, b : 진수)
-
+$$
+log_a b\\
+a : 밑 , \; b : 진수
+$$
 log의 계산은 밑(a)과 진수(b)에 숫자를 대입하여 결괏값을 얻는 방법입니다. log 식의 계산은 다음과 같습니다. 
 
 
 $$
-log_a 1=0,log_a a=1
+1)\quad log_a 1=0,log_a a=1 \\
+2)\quad log_a M + log_a N = log_a MN\\
+3)\quad log_a M - log_a N = log_a \frac{M}{N}\\
+4)\quad log_a M^k = klog_a M
 $$
 
+시간복잡도 O(log<sup>n</sup>)를 계산하는데 필요한 로그 계산법은 위의 공식 중에 1번과 4번 입니다.
 $$
-log_a M + log_a N = log_a MN
+log_2 2 = 1, \; log_2 2^2 = 2, \; log_2 2^{1000} = 1000\\
+log_{10} 10 = 1, \; log_{10} 10^5 = 5, \; log_{10} 10^{30000} =30000
 $$
-
-$$
-log_a M - log_a N = log_a \frac{M}{N}
-$$
-
-$$
-log_a M^k = klog_a M
-$$
-
 
 
 ## 시간복잡도가 O(n<sup>2</sup>)인 경우
